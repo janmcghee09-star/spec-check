@@ -104,7 +104,7 @@ Built by Jan McGhee as a portfolio demonstration of AI-augmented product managem
 - Frontend: React (via CDN)
 - Backend: Vercel Serverless Functions
 - AI: Anthropic Claude API
-- Hosting: Vercel
+- Hosting: Vercel (https://vercel.com/jan-mcghees-projects/spec-check)
 
 ---
 
