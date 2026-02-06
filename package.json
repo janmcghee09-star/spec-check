@@ -1,0 +1,10 @@
+{
+  "name": "spec-check",
+  "version": "1.0.0",
+  "description": "AI-powered PRD analysis tool",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  }
+}
