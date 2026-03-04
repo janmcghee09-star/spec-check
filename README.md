@@ -59,40 +59,10 @@ User Browser
 
 ## ❓ Troubleshooting
 
-### "404 Not Found" after deployment
-- **Solution:** Check that files are in the correct folders (`public/` and `api/`)
-- Re-upload if needed, maintaining folder structure
-
 ### "Analysis failed" error
 - **Solution:** Check browser console (F12) for detailed errors
 - Verify API key starts with `sk-ant-`
 - Try a fresh API key from console.anthropic.com
-
-### Deployment fails
-- **Solution:** Check Vercel deployment logs
-- Verify `vercel.json` and `package.json` are at root level
-- Make sure repository is public
-
-### API calls timing out
-- **Solution:** Vercel free tier has 10-second timeout
-- PRD might be too long - try a shorter one
-- Or upgrade Vercel plan for longer timeouts
-
----
-
-## 📊 Cost Estimate
-
-**Vercel Free Tier:**
-- ✅ 100GB bandwidth/month
-- ✅ 100 deployments/day
-- ✅ Automatic HTTPS
-- ✅ Global CDN
-
-**Anthropic API:**
-- Users bring their own API key
-- You pay $0
-
-**Total cost to you: $0/month**
 
 ---
 
